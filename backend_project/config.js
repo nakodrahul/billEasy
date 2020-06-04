@@ -1,12 +1,12 @@
 const Pool=require('pg').Pool;
-userPg="root"//db user name
-hostname=127.0.0.1 //db host same for all
-db="test_db" //database name
-pass="root" //db user password if u set when at the time of creating db
-portno=3211;//db port
+employeePg="root"
+hostname=127.0.0.1 
+db="employee_db"
+pass="root" 
+portno=3211;
 
 const pool=new Pool({
-	user:userPg,
+	user:employeePg,
 	host:hostname,
 	database:db,
 	password:pass,

@@ -14,5 +14,5 @@ app.use(bodyParser.urlencoded({
 app.use('/', router);
 
 app.listen(port, function () {
-	console.log(`running on port ${port}`);
+	console.log(`current port ${port}`);
 })
